@@ -28,7 +28,7 @@ import base64
 flaskThread = None
 ipAdress = '192.168.68.122' #IP adress
 flaskobj = Flask(__name__)
-
+#123
 # AWS
 import boto3
 from botocore.exceptions import ClientError
