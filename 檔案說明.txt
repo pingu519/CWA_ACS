@@ -1,0 +1,16 @@
+1.python app.py
+2.如果上傳base64 image， 請使用python uploadImage.py (webservice的URL: XXXX/PostImagePC)
+
+
+
+A.檔案：
+1. app.py:主程式
+2. cwa_functions:系統關聯套件(影像處理、檔案處理)
+3. shrimpCounter:計數邏輯程式
+4. config.yaml:系統設定檔
+5. param.csv:水族物種客製參數檔
+6. cwa_env.yaml:Python虛擬環境檔
+
+B.目錄：
+OutputResult:結果檔案匯出位置
+非洲王子_25_30mm:讀取影像之範例圖片

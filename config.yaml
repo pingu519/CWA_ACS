@@ -1,0 +1,26 @@
+# set 'True' to run with image. set 'False' to run from camera
+test_with_img: True
+
+# the number of frames to do averaging of counting and length 
+frame_num: 5
+
+# the number of ouput data (the output number of items in the .csv file) 
+data_num: 1 
+
+# the ip of RPi or webcam.
+cam_ip: 192.168.1.184
+
+# order information(order number)
+po_no: SO20201125001
+
+# order information(item number)
+item_id: FD0201C
+
+#the path to save recording iamge 
+log_raw_img_path: '.\recordingData'
+
+#---------in the file of param.csv
+#bw_shift:對比門檻值(整數)
+#pix2mm_ratio像素mm比例(小數).
+#count shift
+
